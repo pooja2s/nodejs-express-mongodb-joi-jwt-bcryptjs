@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "659e6bb08412250972d1fb41"
+  },
+  "email": "pooja@yopmail.com",
+  "username": "pooja",
+  "role": "user",
+  "phone": "999999999999",
+  "firstName": "POOJA",
+  "lastName": "VERMA",
+  "address": "7835 new road",
+  "city": "xyz",
+  "state": "abc",
+  "country": "India",
+  "zipcode": "129263874",
+  "isActive": 1,
+  "createdAt": {
+    "$date": "2024-01-10T10:04:32.684Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$Ei/GMEHzEFBXCLzBlh/UWOZhMuUPFzUiqFnvaTHAmnjaP1rbbf7Em",
+  "updatedAt": {
+    "$date": "2024-01-10T10:04:32.685Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "659e6d56143be01ca1d0e9ae"
+  },
+  "email": "ajay@yopmail.com",
+  "username": "ajay",
+  "role": "user",
+  "phone": "999999999999",
+  "firstName": "AJAY",
+  "lastName": "VERMA",
+  "address": "7835 new road",
+  "city": "xyz",
+  "state": "abc",
+  "country": "India",
+  "zipcode": "129263874",
+  "isActive": 1,
+  "createdAt": {
+    "$date": "2024-01-10T10:11:34.487Z"
+  },
+  "__v": 0,
+  "password": "$2a$10$1to9gjP1Z/uF/SSxOTWLOOnDv1K0A7zgEVlGHLzczrIHCinDJlcOy",
+  "updatedAt": {
+    "$date": "2024-01-10T10:11:34.488Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "659e6f9254edfe95f94de9cc"
+  },
+  "email": "vaibhav@yopmail.com",
+  "username": "vaibhav",
+  "password": "$2a$10$2tQ3eej7QaX4DEjK5np6Xe9jJbbnjxZA/nB5Ms3NoD7YI9mJnl7Y2",
+  "role": "user",
+  "phone": "999999999999",
+  "firstName": "VAIBHAV",
+  "lastName": "VERMA",
+  "address": "7835 new road",
+  "city": "xyz",
+  "state": "abc",
+  "country": "India",
+  "zipcode": "129263874",
+  "isActive": 1,
+  "createdAt": {
+    "$date": "2024-01-10T10:21:06.029Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2024-01-10T10:21:06.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "659f6f5ae2a2c002d90e37ee"
+  },
+  "email": "ritika@yopmail.com",
+  "username": "ritika",
+  "password": "$2a$10$YgW0HZeMXs8rRnenvZj6IOslDWWQwRofJkOkeiK5wtjZY/v7nIgTi",
+  "role": "user",
+  "phone": "999999999999",
+  "firstName": "RITIKA",
+  "lastName": "VERMA",
+  "address": "7835 new road",
+  "city": "xyz",
+  "state": "abc",
+  "country": "India",
+  "zipcode": "129263874",
+  "isActive": 1,
+  "createdAt": {
+    "$date": "2024-01-11T04:32:26.517Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T04:32:26.517Z"
+  },
+  "__v": 0
+}]

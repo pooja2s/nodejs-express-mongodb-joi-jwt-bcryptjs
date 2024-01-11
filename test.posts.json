@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "659e8243100ca10cc880b601"
+  },
+  "createdBy": "659e6d56143be01ca1d0e9ae",
+  "title": "First Post",
+  "description": "First Post",
+  "createdAt": {
+    "$date": "2024-01-10T11:40:51.249Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-10T11:40:51.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659e825c100ca10cc880b603"
+  },
+  "createdBy": "659e6d56143be01ca1d0e9ae",
+  "title": "Second Post",
+  "description": "Second Post description is here",
+  "createdAt": {
+    "$date": "2024-01-10T11:41:16.698Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-10T11:41:16.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f697eb272ed5300bf87a6"
+  },
+  "createdBy": "659e6bb08412250972d1fb41",
+  "title": "Third Post",
+  "description": "Third Post description is here",
+  "createdAt": {
+    "$date": "2024-01-11T04:07:26.574Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T04:07:26.574Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f698bb272ed5300bf87a8"
+  },
+  "createdBy": "659e6bb08412250972d1fb41",
+  "title": "Forth Post",
+  "description": "Forth Post description is here",
+  "createdAt": {
+    "$date": "2024-01-11T04:07:39.442Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T04:07:39.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f69abb272ed5300bf87ab"
+  },
+  "createdBy": "659e6f9254edfe95f94de9cc",
+  "title": "Fifth Post",
+  "description": "Fifth Post description is here",
+  "createdAt": {
+    "$date": "2024-01-11T04:08:11.587Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T04:08:11.587Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f69b6b272ed5300bf87ad"
+  },
+  "createdBy": "659e6f9254edfe95f94de9cc",
+  "title": "Sixth Post",
+  "description": "Sixth Post description is here",
+  "createdAt": {
+    "$date": "2024-01-11T04:08:22.112Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T04:08:22.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f78193ea3ac24e8d1549d"
+  },
+  "createdBy": "659e6f9254edfe95f94de9cc",
+  "title": "Seventh Post",
+  "description": "Seventh Post description is here",
+  "createdAt": {
+    "$date": "2024-01-11T05:09:45.201Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T05:09:45.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f7d615bfeb4ba78125e67"
+  },
+  "createdBy": "659e6f9254edfe95f94de9cc",
+  "title": "Eight Post",
+  "description": "Eight Post description is here",
+  "createdAt": {
+    "$date": "2024-01-11T05:32:17.247Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T05:32:17.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f8306158d944dfd5fe3e1"
+  },
+  "createdBy": "659e6f9254edfe95f94de9cc",
+  "title": "Ninth Post",
+  "description": "Ninth Post description is here",
+  "createdAt": {
+    "$date": "2024-01-11T05:56:22.165Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-11T05:56:22.166Z"
+  },
+  "__v": 0
+}]

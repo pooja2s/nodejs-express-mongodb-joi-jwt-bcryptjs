@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "fb5b700b-df94-4cce-99a4-bd877e1259d4",
+		"name": "node-js-api-mongo-jwt-token",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25161410",
+		"_collection_link": "https://universal-space-311851.postman.co/workspace/My-Workspace~98f71638-04c0-4c83-89c0-039d177c012d/collection/25161410-fb5b700b-df94-4cce-99a4-bd877e1259d4?action=share&source=collection_link&creator=25161410"
+	},
+	"item": [
+		{
+			"name": "Get My All Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTllNmY5MjU0ZWRmZTk1Zjk0ZGU5Y2MiLCJpYXQiOjE3MDQ5NDcwNTJ9.vg368cATvDmjDadDfUl0sWGSfS8e27Ta2FbAwtqmbf4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTllNmY5MjU0ZWRmZTk1Zjk0ZGU5Y2MiLCJpYXQiOjE3MDQ5NDcwNTJ9.vg368cATvDmjDadDfUl0sWGSfS8e27Ta2FbAwtqmbf4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"Ninth Post\",\r\n    \"description\":\"Ninth Post description is here\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/posts/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"posts",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Post by ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTlmNmY1YWUyYTJjMDAyZDkwZTM3ZWUiLCJpYXQiOjE3MDQ5NDk0MDZ9.8ZpdHbP4fkfhr_5fJ1WvvXpHM9iXgrWqQ7Re2UdqT80",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/api/posts/659f69abb272ed5300bf87ab",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"posts",
+						"659f69abb272ed5300bf87ab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Post",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTllNmY5MjU0ZWRmZTk1Zjk0ZGU5Y2MiLCJpYXQiOjE3MDQ5NDcwNTJ9.vg368cATvDmjDadDfUl0sWGSfS8e27Ta2FbAwtqmbf4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/api/posts/659f8add453b9bfc1d7df914",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"posts",
+						"659f8add453b9bfc1d7df914"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Post",
+			"request": {
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTlmNmY1YWUyYTJjMDAyZDkwZTM3ZWUiLCJpYXQiOjE3MDQ5NDk4MDF9.9N4y8MKu4x-yX3yiksh_mbjMMqXljnAn1L4Gp3vv7j4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"title\":\"Seventh Post\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/posts/659f78193ea3ac24e8d1549d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"posts",
+						"659f78193ea3ac24e8d1549d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ritika@yopmail.com\",\r\n    \"username\":\"ritika\",\r\n    \"password\":\"123456789\",\r\n    \"phone\":\"999999999999\",\r\n    \"firstName\":\"ritika\",\r\n    \"lastName\":\"verma\",\r\n    \"address\":\"7835 new road\",\r\n    \"city\":\"xyz\",\r\n    \"state\":\"abc\",\r\n    \"country\":\"India\",\r\n    \"zipcode\":\"129263874\"            \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ritika@yopmail.com\",\r\n    \"password\":\"123456789\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Posts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTllNmQ1NjE0M2JlMDFjYTFkMGU5YWUiLCJpYXQiOjE3MDQ4ODQwNjR9.0-WeUCcjxfxnwa1Gq-rMjzbWQVz2mQQI69FIAaj4vZM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/api/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
