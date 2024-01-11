@@ -75,7 +75,7 @@ This tutorial will guide you to register and login user with JWT token and after
 
 
 You will find the postman collection to run the API.
-To test the API you need to install Postman from https://www.getpostman.com Open the "User Authentication" and then click on import button (top right corner). Then select the file named "userauth.postman_collection.json" .
+To test the API you need to install Postman from https://www.getpostman.com Open the "User Authentication" and then click on import button (top right corner). Then select the file named "node-js-api-mongo-jwt-token.postman_collection.json" .
 
 # Credentials you can use for login:
 email : vaibhav@yopmail.com
