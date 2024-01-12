@@ -6,6 +6,7 @@ In this tutorial, we will build a RESTful API using the following technologies:
 - [Node.js](https://nodejs.org/) as our server platform.
 - [Express](http://expressjs.com/) to handle HTTP requests and responses.
 - [MongoDB](https://www.mongodb.com/) as our NoSQL database for storing user data.
+- [Mongoose](https://mongoosejs.com/) as our method to asscess database.
 - [Joi](https://github.com/hapijs/joi) for [validating input](https://github.com/dwyl/learn-rest-api #validate-input).
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken "Auth0's jsonwebtoken library") for generating JSON Web Tokens (JWT),
 - [Body-parser middleware](https://github.com/expressjs/body-parser "Body Parser Middleware") to parse JSON and URL encoded form data.
