@@ -33,7 +33,7 @@ const loginValidation = (data) =>{
     return schema.validate(data);
 }
 
-//Register Validation
+//Post Validation
 const addPostValidation = (data) =>{
 
     const schema = Joi.object({
